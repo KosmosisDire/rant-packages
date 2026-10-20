@@ -1,0 +1,14 @@
+# The packages rant install knows by name, each with the GitHub repo it comes from. The
+# package.rant at the root of that repo says the rest.
+
+package "bridge" {
+  repo = "KosmosisDire/rant-bridge"
+}
+
+package "explorer" {
+  repo = "KosmosisDire/rant-explorer"
+}
+
+package "vscode" {
+  repo = "KosmosisDire/rant-vscode"
+}
