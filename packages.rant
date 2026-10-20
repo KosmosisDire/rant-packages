@@ -12,3 +12,7 @@ package "explorer" {
 package "vscode" {
   repo = "KosmosisDire/rant-vscode"
 }
+
+package "transcoder" {
+  repo = "KosmosisDire/rant-transcoder"
+}
