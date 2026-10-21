@@ -16,3 +16,7 @@ package "vscode" {
 package "transcoder" {
   repo = "KosmosisDire/rant-transcoder"
 }
+
+package "hmi" {
+  repo = "KosmosisDire/rant-hmi"
+}
