@@ -20,3 +20,7 @@ package "transcoder" {
 package "hmi" {
   repo = "KosmosisDire/rant-hmi"
 }
+
+package "manager" {
+  repo = "KosmosisDire/rant-manager"
+}
