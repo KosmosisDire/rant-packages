@@ -1,26 +1,12 @@
-# The packages rant install knows by name, each with the GitHub repo it comes from. The
-# package.rant at the root of that repo says the rest.
+# The GitHub repos rant install looks in. The name in the package.rant at the root of each
+# repo names its package, and no two may name the same.
 
-package "bridge" {
-  repo = "KosmosisDire/rant-bridge"
-}
-
-package "explorer" {
-  repo = "KosmosisDire/rant-explorer"
-}
-
-package "vscode" {
-  repo = "KosmosisDire/rant-vscode"
-}
-
-package "transcoder" {
-  repo = "KosmosisDire/rant-transcoder"
-}
-
-package "hmi" {
-  repo = "KosmosisDire/rant-hmi"
-}
-
-package "manager" {
-  repo = "KosmosisDire/rant-manager"
-}
+repos = [
+  "KosmosisDire/rant-cli",
+  "KosmosisDire/rant-bridge",
+  "KosmosisDire/rant-explorer",
+  "KosmosisDire/rant-vscode",
+  "KosmosisDire/rant-transcoder",
+  "KosmosisDire/rant-hmi",
+  "KosmosisDire/rant-manager",
+]
