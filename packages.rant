@@ -3,6 +3,7 @@
 
 repos = [
   "KosmosisDire/Rant",
+  "KosmosisDire/rant-math",
   "KosmosisDire/rant-cli",
   "KosmosisDire/rant-bridge",
   "KosmosisDire/rant-explorer",
