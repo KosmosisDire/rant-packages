@@ -14,6 +14,7 @@ may name the same one. Releases are tagged `v<version>` and carry their files by
 
 - `<name>-<version>-<platform>.tar.gz`, unpacked into `~/.rant/packages/<name>`
 - `<name>-<version>.vsix`, installed into an editor
+- `<name>-<version>.pcwlx`, a PLCnext Engineer library placed in Engineer's user libraries
 - `<name>-<version>-skill.zip`, a skill for AI coding agents
 
 A `library` block in its `package.rant` makes a repo a library: `cmake`, `python`, `csharp` and
