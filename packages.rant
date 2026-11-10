@@ -10,4 +10,5 @@ repos = [
   "KosmosisDire/rant-transcoder",
   "KosmosisDire/rant-hmi",
   "KosmosisDire/rant-manager",
+  "KosmosisDire/rant-plcnext",
 ]
